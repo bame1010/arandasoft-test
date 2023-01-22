@@ -5,3 +5,22 @@
   min-height: 300px;
   height: fit-content;
 }
+
+@media screen and (max-width: 1070px) {
+  .main{
+    display: flex;
+    margin-top: 8%;
+  }  
+}
+
+@media screen and (max-width: 800px) {
+  .main{
+    margin-top: 25%;
+  }  
+}
+
+@media screen and (max-width: 650px) {
+  .main{
+    margin-top: 40%;
+  }  
+}

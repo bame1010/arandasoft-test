@@ -31,7 +31,7 @@ const Header = () => {
         <div className={styles.menu_item}>Menú Niños</div>
         <div className={styles.menu_item}>Sopas</div>
       </div>
-      <div className={styles.home}>
+      <div className={styles.home} onClick={() => history.push("/")}>
         <HomeIcon />
       </div>
     </div>

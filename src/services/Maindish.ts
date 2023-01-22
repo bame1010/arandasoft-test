@@ -12,5 +12,3 @@ export const getDish = (maincourse: string) => {
     controller,
   };
 };
-
-/*https://api.spoonacular.com/recipes/complexSearch?apiKey=5851b47a81e34639a71c590781e7313f&type=maincourse*/
