@@ -21,11 +21,15 @@ td {
 @media screen and (max-width: 1070px) {
   .container {
     &__title_container {
-      font-family: "Monster Clubhouse", sans-serif;
       font-size: 54px;
-      font-weight: 400;
-      color: #d84a4a;
-      width: 100%;
     }
   }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    &__title_container {
+      font-size: 40px;
+    }
+  }  
 }
