@@ -25,6 +25,14 @@
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      &__title_container {
+        font-size: 47px;
+      }
+    }
+  }  
   
   @media screen and (max-width: 500px) {
     .container {
