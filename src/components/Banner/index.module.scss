@@ -78,3 +78,30 @@
     }
   }
 }
+
+
+@media screen and (max-width: 750px) {
+  .container{
+    & .title{
+      &_one{
+        font-size: 65px;
+      }
+      &_two{
+        font-size: 58px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container{
+    & .title{
+      &_one{
+        font-size: 50px;
+      }
+      &_two{
+        font-size: 45px;
+      }
+    }
+  }
+}
