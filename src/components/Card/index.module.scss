@@ -1,0 +1,76 @@
+.card {
+  width: 266px;
+  height: 323px;
+  position: relative;
+  padding-top: 57px;
+  &__image_container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    & img {
+      width: 163px;
+      height: 167px;
+      border-radius: 50%;
+    }
+  }
+  &__subcontainer {
+    width: 266px;
+    height: 270px;
+    background: transparent linear-gradient(180deg, #e9f1fa 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 4px 6px 10px #bfc4cad1;
+    border-radius: 16px;
+  }
+  &__infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+  }
+  &__qualities {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19px 0 11px;
+    &_left {
+      & img {
+        margin-top: 6px;
+        margin-right: 6px;
+        width: 23px;
+        height: 23px;
+      }
+      & span {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        color: #425966;
+      }
+    }
+    &_right {
+      display: flex;
+      align-items: center;
+      & img {
+        width: 19px;
+        height: 17px;
+      }
+    }
+  }
+  &__name {
+    display: flex;
+    margin-top: 60px;
+    :nth-child(1) {
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      color: #d84a4a;
+    }
+    :nth-child(2) {
+      font-family: "Monster Clubhouse", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      color: #d84a4a;
+      margin-top: 2%;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 5px 0;
+  & .title {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    & :nth-child(1) {
+      font-family: "Monster Clubhouse", sans-serif;
+      font-size: 40px;
+      font-weight: 400;
+      color: #425966;
+    }
+    & :nth-child(2) {
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      color: #d84a4a;
+    }
+  }
+  & .menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #425966;
+    gap: 45px;
+    padding-right: 80px;
+    &_item {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+  & .home {
+    display: none;
+  }
+}
+
+.home_two{
+  display: none;
+}
+
+@media screen and (max-width: 1070px) {
+  .container {
+    & .title {
+      width: 50%;
+    }
+    & .menu {
+      display: none;
+    }
+    & .home {
+      display: flex;
+      width: 50%;
+      justify-content: flex-end;
+      padding-right: 36px;
+      align-items: center;
+      cursor: pointer;
+    }
+  } 
+}

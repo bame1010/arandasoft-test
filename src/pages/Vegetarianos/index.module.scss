@@ -1,0 +1,31 @@
+.container {
+  padding: 12px 70px;
+  &__title_container {
+    font-family: "Monster Clubhouse", sans-serif;
+    font-size: 67px;
+    font-weight: 400;
+    color: #d84a4a;
+    width: 100%;
+  }
+  &__menu_container {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+td {
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 1070px) {
+  .container {
+    &__title_container {
+      font-family: "Monster Clubhouse", sans-serif;
+      font-size: 54px;
+      font-weight: 400;
+      color: #d84a4a;
+      width: 100%;
+    }
+  }
+}
